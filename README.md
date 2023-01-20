@@ -96,7 +96,7 @@ This repository includes the code that generate PSD from scanned document.
    ```
 3. Install packages
    ```sh
-   cd Image-Processing-AI
+   cd Image2PSD
    pip install -r requirements.txt
    ```
 
