@@ -1,5 +1,6 @@
 ## Absolute position and font
 
+import time
 import photoshop.api as ps
 from areaDetection import detection_text
 
@@ -23,6 +24,6 @@ def main(input_img, output_psd):
 	doc.saveAs(output_psd, options, asCopy=True)
 
 if __name__ == '__main__':
-	input_img = 'Capture-1.png'
+	input_img = 'Capture.png'
 	output_psd = "result_psd.psd"
 	main(input_img, output_psd)
